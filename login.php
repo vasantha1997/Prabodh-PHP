@@ -17,7 +17,7 @@ $query="SELECT * from prabodh where username='$username' and password='$password
 	  {
 		 header("location:welcome.html?username=$username");
         // header("location:welcome.php?username=$username");
-         echo "<div>".$username." is login.</div>";        
+        //  echo "<div>".$username." is login.</div>";        
 
 	  }
 	  else {
